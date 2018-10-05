@@ -1,0 +1,1274 @@
+{
+  "homepages": [],
+  "source_base_path": "/work/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Auth.GoogleAuthInterceptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Auth.GoogleAuthInterceptors.html",
+          "hash": "FzAt/fKaLINE2/4n+iBI3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Auth.GoogleGrpcCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Auth.GoogleGrpcCredentials.html",
+          "hash": "/Bi+mvZszfpYp0dvL/KoSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Auth.html",
+          "hash": "TZQi7Vxvux6z+PT64xqO3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AsyncAuthInterceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AsyncAuthInterceptor.html",
+          "hash": "+ClKA8HJoFR37Q1REkRPWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AsyncClientStreamingCall-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AsyncClientStreamingCall-2.html",
+          "hash": "ZYCL/L5tDtXdap5SNR7AnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AsyncDuplexStreamingCall-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AsyncDuplexStreamingCall-2.html",
+          "hash": "DK+HZVIck5b10q8Wz2ZlEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AsyncServerStreamingCall-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AsyncServerStreamingCall-1.html",
+          "hash": "VfWgsgIyq/keKdB0qTxZig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AsyncUnaryCall-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AsyncUnaryCall-1.html",
+          "hash": "Z2kbVSSCHjp2eumwGJVh+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AuthContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AuthContext.html",
+          "hash": "a2Ysegd6njVG06ahXsRVQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AuthInterceptorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AuthInterceptorContext.html",
+          "hash": "jAp3Sa9kd4Av6TyfwLEtUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.AuthProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.AuthProperty.html",
+          "hash": "mRENx7hCpKjdLOfBj/QT6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.CallCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.CallCredentials.html",
+          "hash": "on6LJBAvdKI2FUkZJhpOfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.CallInvocationDetails-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.CallInvocationDetails-2.html",
+          "hash": "WcJ+CQX3pBdXf1MiZ+wR4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.CallInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.CallInvoker.html",
+          "hash": "VfHch7o52mfl9C2WW73I3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.CallOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.CallOptions.html",
+          "hash": "yKbSmRw5CGbiAoKJDoJjpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Calls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Calls.html",
+          "hash": "Grd0q0zwCOjtXWiYibbJeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Channel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Channel.html",
+          "hash": "aI1c2c1qMlzddqDifTDQ5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ChannelCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ChannelCredentials.html",
+          "hash": "ErhJjfTNogxrMk3MCp9efw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ChannelOption.OptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ChannelOption.OptionType.html",
+          "hash": "y+7GQrMMAqqRnezNM0S59w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ChannelOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ChannelOption.html",
+          "hash": "nYzzrWTbG4qnXRtNw1H43g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ChannelOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ChannelOptions.html",
+          "hash": "fEbTQRvoWVaDs9sGsHahkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ChannelState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ChannelState.html",
+          "hash": "pN4iyd5KHxy2rOCa5+5FsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ClientBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ClientBase-1.html",
+          "hash": "3RNGQqjjcIIXGqniqXQuBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ClientBase.ClientBaseConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ClientBase.ClientBaseConfiguration.html",
+          "hash": "PQBNyIvDwUyt9cMKZ7et3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ClientBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ClientBase.html",
+          "hash": "VqLy11/QG1H8hEBN4IDJzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ClientStreamingServerMethod-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ClientStreamingServerMethod-2.html",
+          "hash": "m+ZdJpeIOgAbb0sMOmt9fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.CompressionLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.CompressionLevel.html",
+          "hash": "LoErkAgvbNqVbvFj5l8bow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ContextPropagationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ContextPropagationOptions.html",
+          "hash": "nPlRyBZwBDywTqNoWSe2gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ContextPropagationToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ContextPropagationToken.html",
+          "hash": "Oan2ArEx8DbBh1msQWyfGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.DefaultCallInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.DefaultCallInvoker.html",
+          "hash": "NAkJzzOF+l0XX8oFhzvRlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.DuplexStreamingServerMethod-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.DuplexStreamingServerMethod-2.html",
+          "hash": "8dCBmP405G7lJqC5JOW7PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.GrpcEnvironment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.GrpcEnvironment.html",
+          "hash": "seGTVdcgQ8rM9XJrqiwCdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.IAsyncStreamReader-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.IAsyncStreamReader-1.html",
+          "hash": "Zw7ZzsMxKWktmhjRnwbcBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.IAsyncStreamWriter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.IAsyncStreamWriter-1.html",
+          "hash": "xkuf/t0x0/154eVDZueqZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.IClientStreamWriter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.IClientStreamWriter-1.html",
+          "hash": "OGEVb7J+0Ihhpbm5JDW76w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.IMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.IMethod.html",
+          "hash": "4RtNYpDZQ1iX5skW+3GqrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.IServerStreamWriter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.IServerStreamWriter-1.html",
+          "hash": "Byr+irLR4Sqm0Ko2LiYOlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.CallInvokerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.CallInvokerExtensions.html",
+          "hash": "EDsFkaQW0ej8/p14uE7gOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.ChannelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.ChannelExtensions.html",
+          "hash": "A9H1zLqfMeGj176dPv2YpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.ClientInterceptorContext-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.ClientInterceptorContext-2.html",
+          "hash": "0U4eWMIZ1xbQfj73+cJFjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.Interceptor.AsyncClientStreamingCallContinuation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.Interceptor.AsyncClientStreamingCallContinuation-2.html",
+          "hash": "tghqoVIuJxdM/bQ+9gyhig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.Interceptor.AsyncDuplexStreamingCallContinuation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.Interceptor.AsyncDuplexStreamingCallContinuation-2.html",
+          "hash": "quPOZiMoMF6z4zSE90KFpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.Interceptor.AsyncServerStreamingCallContinuation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.Interceptor.AsyncServerStreamingCallContinuation-2.html",
+          "hash": "jloFf+4PbLTSla1mg0R9bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.Interceptor.AsyncUnaryCallContinuation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.Interceptor.AsyncUnaryCallContinuation-2.html",
+          "hash": "ojLqdd9XZ+V/KTjkcQh9Fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.Interceptor.BlockingUnaryCallContinuation-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.Interceptor.BlockingUnaryCallContinuation-2.html",
+          "hash": "N+SqGTJa531vMfIZrOztPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.Interceptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.Interceptor.html",
+          "hash": "Rdat9kgUP+tSC5ZpLIoNYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.ServerServiceDefinitionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.ServerServiceDefinitionExtensions.html",
+          "hash": "0zgXLRFwvvEVQjeDQutIVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Interceptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Interceptors.html",
+          "hash": "2Vm6OdjyfTghv21Y/qMMNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.KeyCertificatePair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.KeyCertificatePair.html",
+          "hash": "mifluHWgxE8Chd+ndWn3uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.ConsoleLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.ConsoleLogger.html",
+          "hash": "M7o7QtuUnclrQGvbYUcpWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.ILogger.html",
+          "hash": "7IPy1FvJk8GcaYiaBduhKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.LogLevel.html",
+          "hash": "NSmYZT5Laeccg6yC+yrSTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.LogLevelFilterLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.LogLevelFilterLogger.html",
+          "hash": "VUOf7AbG3wiE2BPSIg0dFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.NullLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.NullLogger.html",
+          "hash": "BSEDRFLOtar1jFBmsawHqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.TextWriterLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.TextWriterLogger.html",
+          "hash": "gbayotQN1c+1lIZPk2ai9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Logging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Logging.html",
+          "hash": "n191s6aZ2FaKgqeFqvod+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Marshaller-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Marshaller-1.html",
+          "hash": "KFVOE9nrYKozw3yvw84nZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Marshallers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Marshallers.html",
+          "hash": "LP6w1X4JHOcKceFZTV1TJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Metadata.Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Metadata.Entry.html",
+          "hash": "iA55kcpkVrdsY653huyZEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Metadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Metadata.html",
+          "hash": "dyE7j//D2Ohe0aoHmU/SqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Method-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Method-2.html",
+          "hash": "Ys9XE+HGkFBKrrGeGppDsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.MethodType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.MethodType.html",
+          "hash": "hubXxI3aDXEPAz3zUsDC8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.RpcException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.RpcException.html",
+          "hash": "+YI14ff7TzZqViz2in5wIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Server.ServerPortCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Server.ServerPortCollection.html",
+          "hash": "FjpTmASYL4MIjQ3/emvaCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Server.ServiceDefinitionCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Server.ServiceDefinitionCollection.html",
+          "hash": "RcEnjCbVBjhPAEl8d+2o2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Server.html",
+          "hash": "hOahe9Ox58FxcTHtfttWFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ServerCallContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ServerCallContext.html",
+          "hash": "W0VrSAP3UtVhIYuJruH3Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ServerCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ServerCredentials.html",
+          "hash": "ENjIgKDuJKLMAOIlleLDOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ServerPort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ServerPort.html",
+          "hash": "oUj+wA+urvoV+6JI+z1gRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ServerServiceDefinition.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ServerServiceDefinition.Builder.html",
+          "hash": "vy5n0SDBdWVWh7vJ9+ku/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ServerServiceDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ServerServiceDefinition.html",
+          "hash": "pU5G2pDgT+J/a+XNhPBvlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.ServerStreamingServerMethod-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.ServerStreamingServerMethod-2.html",
+          "hash": "HGHp7cfSH/66MnGdbGXUMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.SslCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.SslCredentials.html",
+          "hash": "69nl1dL+cY1NuxYdPJFJhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.SslServerCredentials.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.SslServerCredentials.html",
+          "hash": "Wm6/z8IXsGNna77iUG23PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Status.html",
+          "hash": "XADMW0bdH8joPxQbkp4e6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.StatusCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.StatusCode.html",
+          "hash": "JaoavrT+g13Fm0PLzTKO7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Testing.TestCalls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Testing.TestCalls.html",
+          "hash": "lkD3d05YEs5/2JkouPjVXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Testing.TestServerCallContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Testing.TestServerCallContext.html",
+          "hash": "GhcpbHiNu/wgSpvn4dtPrQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Testing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Testing.html",
+          "hash": "eB/9z1iTa2mpkWn7el5MFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.UnaryServerMethod-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.UnaryServerMethod-2.html",
+          "hash": "eC2fqbYN06UHRCGVkXXZ5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Utils.AsyncStreamExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Utils.AsyncStreamExtensions.html",
+          "hash": "thYSXVUNDbgRWmRCyqk06g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Utils.BenchmarkUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Utils.BenchmarkUtil.html",
+          "hash": "uuPAzNafnmbj1uS7/+TepA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Utils.GrpcPreconditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Utils.GrpcPreconditions.html",
+          "hash": "xk6jCZ3mVSH1EhKgEQ1Fog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Utils.TaskUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Utils.TaskUtils.html",
+          "hash": "p+ttoLHeJnUt/DsiFnxaoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.Utils.html",
+          "hash": "cK7ayCpUA/0wx3j5qO6ULA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.VersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.VersionInfo.html",
+          "hash": "ICHhqEPJaiZoK6wBlV4E0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.WriteFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.WriteFlags.html",
+          "hash": "WpGKxn9UdFR5MKMMlVxoXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.WriteOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.WriteOptions.html",
+          "hash": "N8zKiajG3yeSTbJ5gsZjvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Core.html",
+          "hash": "yb77QEVKO+/ioh+qUUQV4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.Health.HealthBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.Health.HealthBase.html",
+          "hash": "NCMQmE66kv1I9JrBxcSa7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.Health.HealthClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.Health.HealthClient.html",
+          "hash": "nP5bIuSK95fU8zkJ+qJdFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.Health.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.Health.html",
+          "hash": "3LTi8TXyfwK39yND9dyHRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.HealthCheckRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.HealthCheckRequest.html",
+          "hash": "5QpjSRpEiVYdb7FXkqTaSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.HealthCheckResponse.Types.ServingStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.HealthCheckResponse.Types.ServingStatus.html",
+          "hash": "enJ1cHkkJqhEOdjNkRBlLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.HealthCheckResponse.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.HealthCheckResponse.Types.html",
+          "hash": "aYH+3ZYLzFqfxFqaV5g3yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.HealthCheckResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.HealthCheckResponse.html",
+          "hash": "sWEUYtxefTGzVFbpJc+tew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.HealthReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.HealthReflection.html",
+          "hash": "2BrEI0i+gsFExkplN55zEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.Health.V1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.Health.V1.html",
+          "hash": "DVPr/aot1jsqGt9XNNjYQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.HealthCheck.HealthServiceImpl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.HealthCheck.HealthServiceImpl.html",
+          "hash": "E8ga0+Lp6ojRZ5SipfEacw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Grpc.HealthCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Grpc.HealthCheck.html",
+          "hash": "2dulNA0hDesZM0JRwqX4ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "U62BLSnRVDWnclzPQ6NCkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ZGICZRNZVHD/xJBYvIYKyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

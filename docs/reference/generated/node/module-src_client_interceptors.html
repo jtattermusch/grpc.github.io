@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Documentation Module: src/client_interceptors</title>
+
+	<!--[if lt IE 9]>
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="styles/sunlight.default.css">
+
+	<link type="text/css" rel="stylesheet" href="styles/site.simplex.css">
+
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top ">
+<div class="container">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="index.html">Documentation</a>
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#topNavigation">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+        </button>
+	</div>
+	<div class="navbar-collapse collapse" id="topNavigation">
+		<ul class="nav navbar-nav">
+			
+			<li class="dropdown">
+				<a href="namespaces.list.html" class="dropdown-toggle" data-toggle="dropdown">Namespaces<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="grpc.html">grpc</a></li><li><a href="grpc.credentials.html">grpc.credentials</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="modules.list.html" class="dropdown-toggle" data-toggle="dropdown">Modules<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="module-src_client_interceptors.html">src/client_interceptors</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="classes.list.html" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="grpc.Channel.html">grpc.Channel</a></li><li><a href="grpc.Client.html">grpc.Client</a></li><li><a href="grpc.credentials-CallCredentials.html">grpc.credentials~CallCredentials</a></li><li><a href="grpc.credentials-ChannelCredentials.html">grpc.credentials~ChannelCredentials</a></li><li><a href="grpc.Metadata.html">grpc.Metadata</a></li><li><a href="grpc.Server.html">grpc.Server</a></li><li><a href="grpc.ServerCredentials.html">grpc.ServerCredentials</a></li><li><a href="grpc-Call.html">grpc~Call</a></li><li><a href="grpc-ClientDuplexStream.html">grpc~ClientDuplexStream</a></li><li><a href="grpc-ClientReadableStream.html">grpc~ClientReadableStream</a></li><li><a href="grpc-ClientUnaryCall.html">grpc~ClientUnaryCall</a></li><li><a href="grpc-ClientWritableStream.html">grpc~ClientWritableStream</a></li><li><a href="grpc-ServerDuplexStream.html">grpc~ServerDuplexStream</a></li><li><a href="grpc-ServerReadableStream.html">grpc~ServerReadableStream</a></li><li><a href="grpc-ServerUnaryCall.html">grpc~ServerUnaryCall</a></li><li><a href="grpc-ServerWritableStream.html">grpc~ServerWritableStream</a></li><li><a href="module-src_client_interceptors-EndListener.html">src/client_interceptors~EndListener</a></li><li><a href="module-src_client_interceptors-InterceptingCall.html">src/client_interceptors~InterceptingCall</a></li><li><a href="module-src_client_interceptors-InterceptingListener.html">src/client_interceptors~InterceptingListener</a></li><li><a href="module-src_client_interceptors-InterceptorConfigurationError.html">src/client_interceptors~InterceptorConfigurationError</a></li><li><a href="module-src_client_interceptors-ListenerBuilder.html">src/client_interceptors~ListenerBuilder</a></li><li><a href="module-src_client_interceptors-RequesterBuilder.html">src/client_interceptors~RequesterBuilder</a></li><li><a href="module-src_client_interceptors-StatusBuilder.html">src/client_interceptors~StatusBuilder</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="events.list.html" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="grpc-ClientDuplexStream.html#event:metadata">grpc~ClientDuplexStream#metadata</a></li><li><a href="grpc-ClientDuplexStream.html#event:status">grpc~ClientDuplexStream#status</a></li><li><a href="grpc-ClientReadableStream.html#event:metadata">grpc~ClientReadableStream#metadata</a></li><li><a href="grpc-ClientReadableStream.html#event:status">grpc~ClientReadableStream#status</a></li><li><a href="grpc-ClientUnaryCall.html#event:metadata">grpc~ClientUnaryCall#event:metadata</a></li><li><a href="grpc-ClientUnaryCall.html#event:status">grpc~ClientUnaryCall#event:status</a></li><li><a href="grpc-ClientWritableStream.html#event:metadata">grpc~ClientWritableStream#metadata</a></li><li><a href="grpc-ClientWritableStream.html#event:status">grpc~ClientWritableStream#status</a></li><li><a href="grpc-ServerDuplexStream.html#~event:cancelled">grpc~ServerDuplexStream~event:cancelled</a></li><li><a href="grpc-ServerReadableStream.html#~event:cancelled">grpc~ServerReadableStream~event:cancelled</a></li><li><a href="grpc-ServerUnaryCall.html#~event:cancelled">grpc~ServerUnaryCall~event:cancelled</a></li><li><a href="grpc-ServerWritableStream.html#~event:cancelled">grpc~ServerWritableStream~event:cancelled</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="global.html" class="dropdown-toggle" data-toggle="dropdown">Global<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="global.html#CancelRequester">CancelRequester</a></li><li><a href="global.html#CloseRequester">CloseRequester</a></li><li><a href="global.html#createStatusError">createStatusError</a></li><li><a href="global.html#getClientInterceptors">getClientInterceptors</a></li><li><a href="global.html#getMethodType">getMethodType</a></li><li><a href="global.html#GetPeerRequester">GetPeerRequester</a></li><li><a href="global.html#Interceptor">Interceptor</a></li><li><a href="global.html#InterceptorProvider">InterceptorProvider</a></li><li><a href="global.html#loadPackageDefinition">loadPackageDefinition</a></li><li><a href="global.html#MessageListener">MessageListener</a></li><li><a href="global.html#MessageRequester">MessageRequester</a></li><li><a href="global.html#MetadataListener">MetadataListener</a></li><li><a href="global.html#MetadataRequester">MetadataRequester</a></li><li><a href="global.html#NextCall">NextCall</a></li><li><a href="global.html#StatusListener">StatusListener</a></li>
+				</ul>
+			</li>
+			
+			<li class="dropdown">
+				<a href="externals.list.html" class="dropdown-toggle" data-toggle="dropdown">Externals<b class="caret"></b></a>
+				<ul class="dropdown-menu ">
+					<li><a href="external-Duplex.html">Duplex</a></li><li><a href="external-EventEmitter.html">EventEmitter</a></li><li><a href="external-GoogleCredential.html">GoogleCredential</a></li><li><a href="external-Readable.html">Readable</a></li><li><a href="external-Writable.html">Writable</a></li>
+				</ul>
+			</li>
+			
+		</ul>
+        
+            <div class="col-sm-3 col-md-3">
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="q" id="search-input">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" id="search-submit"><i class="glyphicon glyphicon-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+	</div>
+
+</div>
+</div>
+
+
+<div class="container" id="toc-content">
+<div class="row">
+
+	
+	<div class="col-md-8">
+	
+		<div id="main">
+			
+
+	<h1 class="page-title">Module: src/client_interceptors</h1>
+<section>
+
+<header>
+    
+</header>
+
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description"><p>Client Interceptors</p>
+<p>This module describes the interceptor framework for clients.
+An interceptor is a function which takes an options object and a nextCall
+function and returns an InterceptingCall:</p>
+<pre class="prettyprint source"><code>var interceptor = function(options, nextCall) {
+  return new InterceptingCall(nextCall(options));
+}</code></pre><p>The interceptor function must return an InterceptingCall object. Returning
+<code>new InterceptingCall(nextCall(options))</code> will satisfy the contract (but
+provide no interceptor functionality). <code>nextCall</code> is a function which will
+generate the next interceptor in the chain.</p>
+<p>To implement interceptor functionality, create a requester and pass it to
+the InterceptingCall constructor:</p>
+<p><code>return new InterceptingCall(nextCall(options), requester);</code></p>
+<p>A requester is a POJO with zero or more of the following methods:</p>
+<p><code>start(metadata, listener, next)</code></p>
+<ul>
+<li>To continue, call next(metadata, listener). Listeners are described</li>
+<li>below.</li>
+</ul>
+<p><code>sendMessage(message, next)</code></p>
+<ul>
+<li>To continue, call next(message).</li>
+</ul>
+<p><code>halfClose(next)</code></p>
+<ul>
+<li>To continue, call next().</li>
+</ul>
+<p><code>cancel(message, next)</code></p>
+<ul>
+<li>To continue, call next().</li>
+</ul>
+<p>A listener is a POJO with one or more of the following methods:</p>
+<p><code>onReceiveMetadata(metadata, next)</code></p>
+<ul>
+<li>To continue, call next(metadata)</li>
+</ul>
+<p><code>onReceiveMessage(message, next)</code></p>
+<ul>
+<li>To continue, call next(message)</li>
+</ul>
+<p><code>onReceiveStatus(status, next)</code></p>
+<ul>
+<li>To continue, call next(status)</li>
+</ul>
+<p>A listener is provided by the requester's <code>start</code> method. The provided
+listener implements all the inbound interceptor methods, which can be called
+to short-circuit the gRPC call.</p>
+<p>Three usage patterns are supported for listeners:
+1) Pass the listener along without modification: <code>next(metadata, listener)</code>.
+  In this case the interceptor declines to intercept any inbound operations.
+2) Create a new listener with one or more inbound interceptor methods and
+  pass it to <code>next</code>. In this case the interceptor will fire on the inbound
+  operations implemented in the new listener.
+3) Make direct inbound calls to the provided listener's methods. This
+  short-circuits the interceptor stack.</p>
+<p>Do not modify the listener passed in. Either pass it along unmodified,
+ignore it, or call methods on it to short-circuit the call.</p>
+<p>To intercept errors, implement the <code>onReceiveStatus</code> method and test for
+<code>status.code !== grpc.status.OK</code>.</p>
+<p>To intercept trailers, examine <code>status.metadata</code> in the <code>onReceiveStatus</code>
+method.</p>
+<p>This is a trivial implementation of all interceptor methods:
+var interceptor = function(options, nextCall) {
+  return new InterceptingCall(nextCall(options), {
+    start: function(metadata, listener, next) {
+      next(metadata, {
+        onReceiveMetadata: function (metadata, next) {
+          next(metadata);
+        },
+        onReceiveMessage: function (message, next) {
+          next(message);
+        },
+        onReceiveStatus: function (status, next) {
+          next(status);
+        },
+      });
+    },
+    sendMessage: function(message, next) {
+      next(message);
+    },
+    halfClose: function(next) {
+      next();
+    },
+    cancel: function(message, next) {
+      next();
+    }
+  });
+};</p>
+<p>This is an interceptor with a single method:
+var interceptor = function(options, nextCall) {
+  return new InterceptingCall(nextCall(options), {
+    sendMessage: function(message, next) {
+      next(message);
+    }
+  });
+};</p>
+<p>Builders are provided for convenience: StatusBuilder, ListenerBuilder,
+and RequesterBuilder</p>
+<p>gRPC client operations use this mapping to interceptor methods:</p>
+<p>grpc.opType.SEND_INITIAL_METADATA -&gt; start
+grpc.opType.SEND_MESSAGE -&gt; sendMessage
+grpc.opType.SEND_CLOSE_FROM_CLIENT -&gt; halfClose
+grpc.opType.RECV_INITIAL_METADATA -&gt; onReceiveMetadata
+grpc.opType.RECV_MESSAGE -&gt; onReceiveMessage
+grpc.opType.RECV_STATUS_ON_CLIENT -&gt; onReceiveStatus</p></div>
+        
+
+        
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+        
+    
+    </div>
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Classes</h3>
+
+        <dl>
+            <dt><a href="module-src_client_interceptors-EndListener.html">EndListener</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-src_client_interceptors-InterceptingCall.html">InterceptingCall</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-src_client_interceptors-InterceptingListener.html">InterceptingListener</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-src_client_interceptors-InterceptorConfigurationError.html">InterceptorConfigurationError</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-src_client_interceptors-ListenerBuilder.html">ListenerBuilder</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-src_client_interceptors-RequesterBuilder.html">RequesterBuilder</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-src_client_interceptors-StatusBuilder.html">StatusBuilder</a></dt>
+            <dd></dd>
+        </dl>
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        <dl>
+            
+<hr>
+<dt>
+    <h4 class="name" id="~getCall"><span class="type-signature">&lt;inner> </span>getCall(channel, path [, options])</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Get a call object built with the provided options.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>channel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.Channel.html">grpc.Channel</a></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>path</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.Client.html#~CallOptions">grpc.Client~CallOptions</a></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"><p>Options object.</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="~getInterceptingCall"><span class="type-signature">&lt;inner> </span>getInterceptingCall(method_definition, options, interceptors, channel, responder)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>method_definition</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.html#~MethodDefinition">grpc~MethodDefinition</a></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.Client.html#~CallOptions">grpc.Client~CallOptions</a></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>interceptors</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="global.html#Interceptor">Interceptor</a>></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>channel</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.Channel.html">grpc.Channel</a></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>responder</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+|
+
+<span class="param-type">EventEmitter</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="~getLastListener"><span class="type-signature">&lt;inner> </span>getLastListener(method_definition, emitter [, callback])</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Creates the last listener in an interceptor stack.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+        <th>Argument</th>
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>method_definition</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.html#~MethodDefinition">grpc~MethodDefinition</a></span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>emitter</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">EventEmitter</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>callback</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">function</span>
+
+
+
+            
+            </td>
+
+            
+                <td class="attributes">
+                
+                    &lt;optional><br>
+                
+
+                
+
+                
+                </td>
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <h5>Returns:</h5>
+    
+            
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type"><a href="grpc.html#~Listener">grpc~Listener</a></span>
+
+
+
+    </dd>
+</dl>
+
+
+        
+
+    
+</dd>
+
+        
+            
+<hr>
+<dt>
+    <h4 class="name" id="~resolveInterceptorProviders"><span class="type-signature">&lt;inner> </span>resolveInterceptorProviders(providers, method_definition)</h4>
+    
+    
+</dt>
+<dd>
+
+    
+    <div class="description">
+        <p>Transforms a list of interceptor providers into interceptors.</p>
+    </div>
+    
+
+    
+
+    
+
+    
+    
+        <h5>Parameters:</h5>
+        
+
+<table class="params table table-striped">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>providers</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;<a href="global.html#InterceptorProvider">InterceptorProvider</a>></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>method_definition</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><a href="grpc.html#~MethodDefinition">grpc~MethodDefinition</a></span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+    
+
+    
+<dl class="details">
+    
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+</dl>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <h5>Returns:</h5>
+    
+            
+
+
+<dl>
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">null</span>
+|
+
+<span class="param-type">Array.&lt;<a href="global.html#Interceptor">Interceptor</a>></span>
+
+
+
+    </dd>
+</dl>
+
+
+        
+
+    
+</dd>
+
+        </dl>
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	
+		<div class="col-md-3">
+			<div id="toc" class="col-md-3 hidden-xs hidden-sm hidden-md"></div>
+		</div>
+	
+
+</div>
+</div>
+
+
+    <div class="modal fade" id="searchResults">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Search results</h4>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+
+
+<footer>
+
+
+<span class="jsdoc-message">
+	Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a>
+	
+		on 2018-08-10T10:27:03-07:00
+	
+	using the <a href="https://github.com/docstrap/docstrap">DocStrap template</a>.
+</span>
+</footer>
+
+<script src="scripts/docstrap.lib.js"></script>
+<script src="scripts/toc.js"></script>
+
+    <script type="text/javascript" src="scripts/fulltext-search-ui.js"></script>
+
+
+<script>
+$( function () {
+	$( "[id*='$']" ).each( function () {
+		var $this = $( this );
+
+		$this.attr( "id", $this.attr( "id" ).replace( "$", "__" ) );
+	} );
+
+	$( ".tutorial-section pre, .readme-section pre, pre.prettyprint.source" ).each( function () {
+		var $this = $( this );
+
+		var example = $this.find( "code" );
+		exampleText = example.html();
+		var lang = /{@lang (.*?)}/.exec( exampleText );
+		if ( lang && lang[1] ) {
+			exampleText = exampleText.replace( lang[0], "" );
+			example.html( exampleText );
+			lang = lang[1];
+		} else {
+			var langClassMatch = example.parent()[0].className.match(/lang\-(\S+)/);
+			lang = langClassMatch ? langClassMatch[1] : "javascript";
+		}
+
+		if ( lang ) {
+
+			$this
+			.addClass( "sunlight-highlight-" + lang )
+			.addClass( "linenums" )
+			.html( example.html() );
+
+		}
+	} );
+
+	Sunlight.highlightAll( {
+		lineNumbers : false,
+		showMenu : true,
+		enableDoclinks : true
+	} );
+
+	$.catchAnchorLinks( {
+        navbarOffset: 10
+	} );
+	$( "#toc" ).toc( {
+		anchorName  : function ( i, heading, prefix ) {
+			return $( heading ).attr( "id" ) || ( prefix + i );
+		},
+		selectors   : "#toc-content h1,#toc-content h2,#toc-content h3,#toc-content h4",
+		showAndHide : false,
+		smoothScrolling: true
+	} );
+
+	$( "#main span[id^='toc']" ).addClass( "toc-shim" );
+	$( '.dropdown-toggle' ).dropdown();
+
+    $( "table" ).each( function () {
+      var $this = $( this );
+      $this.addClass('table');
+    } );
+
+} );
+</script>
+
+
+
+<!--Navigation and Symbol Display-->
+
+
+<!--Google Analytics-->
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            SearcherDisplay.init();
+        });
+    </script>
+
+
+</body>
+</html>
